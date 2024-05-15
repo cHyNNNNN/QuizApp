@@ -1,12 +1,17 @@
 package com.yourname.quizapp;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.stage.Stage;
 import javafx.scene.layout.VBox;
 
+import java.io.IOException;
 import java.util.List;
 
 public class ResultsController {
@@ -38,7 +43,14 @@ public class ResultsController {
     }
 
     private void goToMainMenu() {
-        // Código para volver al menú principal
-        // Esto puede involucrar cambiar la escena actual a la escena del menú principal
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/yourname/quizapp/resources/MainMenu.fxml"));
+            Parent mainMenuRoot = loader.load();
+            Scene mainMenuScene = new Scene(mainMenuRoot);
+            Stage primaryStage = (Stage) mainMenuButton.getScene().getWindow();
+            primaryStage.setScene(mainMenuScene);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
