@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <VBox fx:controller="com.yourname.quizapp.QuizController"
-      xmlns:fx="http://javafx.com/fxml" alignment="center" spacing="10">
+      xmlns:fx="http://javafx.com/fxml" alignment="center" spacing="10" stylesheets="@styles.css">
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>

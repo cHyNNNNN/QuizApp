@@ -14,7 +14,13 @@
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
 }
-
+.mainMenuButton {
+    -fx-background-color: #9FD8CB;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
 .button:hover {
     -fx-background-color: #0056b3;
 }
