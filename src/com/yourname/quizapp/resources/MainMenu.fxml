@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:controller="com.yourname.quizapp.MainMenuController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Button text="FOL" onAction="#startFOLQuiz" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <Button text="Programación A" onAction="#startProgramacionAQuiz" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Button text="Programación B" onAction="#startProgramacionBQuiz" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Button text="Lenguaje de Marcas" onAction="#startLenguajeMarcasQuiz" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Button text="Bases de Datos B" onAction="#startBasesDatosBQuiz" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <Button text="Entornos de Desarrollo" onAction="#startEntornosDesarrolloQuiz" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <Button text="Salir" onAction="#exitApp" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+</GridPane>
