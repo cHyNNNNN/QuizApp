@@ -8,8 +8,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
-import javafx.stage.Stage;
 import javafx.scene.layout.VBox;
+import javafx.scene.layout.HBox;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.List;
@@ -28,18 +29,34 @@ public class ResultsController {
     public void setResults(List<Question> questions, int score) {
         scoreLabel.setText("Tu puntuación: " + score + "/10");
         for (Question question : questions) {
+            VBox questionBox = new VBox();
+            questionBox.getStyleClass().add("question-box");
+
             Label questionLabel = new Label(question.getQuestionText());
-            resultsContainer.getChildren().add(questionLabel);
+            questionLabel.getStyleClass().add("question-text");
+            questionLabel.setWrapText(true);
+            questionBox.getChildren().add(questionLabel);
 
             String[] options = question.getOptions();
             for (int i = 0; i < options.length; i++) {
                 Label optionLabel = new Label(options[i]);
+                optionLabel.setWrapText(true);
                 if (i == question.getCorrectAnswer()) {
-                    optionLabel.setStyle("-fx-text-fill: green;");
+                    optionLabel.getStyleClass().add("correct-answer");
                 }
-                resultsContainer.getChildren().add(optionLabel);
+                if (!question.isCorrect(i) && i == getSelectedAnswerIndex(question)) {
+                    optionLabel.getStyleClass().add("incorrect-answer");
+                }
+                questionBox.getChildren().add(optionLabel);
             }
+            resultsContainer.getChildren().add(questionBox);
         }
+    }
+
+    private int getSelectedAnswerIndex(Question question) {
+        // Implementa la lógica para obtener el índice de la respuesta seleccionada para la pregunta
+        // Esta implementación dependerá de cómo se almacenen las respuestas seleccionadas
+        return -1; // Cambia esto por la lógica adecuada
     }
 
     private void goToMainMenu() {

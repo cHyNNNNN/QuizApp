@@ -7,17 +7,17 @@
 <?import javafx.scene.layout.VBox?>
 
 <VBox fx:controller="com.yourname.quizapp.QuizController"
-      xmlns:fx="http://javafx.com/fxml" alignment="center" spacing="10" stylesheets="@styles.css">
+      xmlns:fx="http://javafx.com/fxml" alignment="center" spacing="10" stylesheets="@styles.css" fillWidth="true">
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>
 
-    <Label fx:id="questionLabel" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+    <Label fx:id="questionLabel" style="-fx-font-size: 18px; -fx-font-weight: bold;" wrapText="true" maxWidth="600"/>
     <VBox spacing="5">
-        <RadioButton fx:id="option1" toggleGroup="$optionsGroup"/>
-        <RadioButton fx:id="option2" toggleGroup="$optionsGroup"/>
-        <RadioButton fx:id="option3" toggleGroup="$optionsGroup"/>
-        <RadioButton fx:id="option4" toggleGroup="$optionsGroup"/>
+        <RadioButton fx:id="option1" toggleGroup="$optionsGroup" wrapText="true"/>
+        <RadioButton fx:id="option2" toggleGroup="$optionsGroup" wrapText="true"/>
+        <RadioButton fx:id="option3" toggleGroup="$optionsGroup" wrapText="true"/>
+        <RadioButton fx:id="option4" toggleGroup="$optionsGroup" wrapText="true"/>
     </VBox>
     <Button text="Siguiente" onAction="#nextQuestion"/>
 </VBox>

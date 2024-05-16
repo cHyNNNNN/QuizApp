@@ -10,8 +10,8 @@
     <Label fx:id="scoreLabel" text="Score" />
     <ScrollPane fx:id="scrollPane" fitToWidth="true" fitToHeight="true" VBox.vgrow="ALWAYS">
         <VBox fx:id="resultsContainer" spacing="10">
-            <!-- Results will be added here dynamically -->
+            <!-- Los resultados se añadirán aquí dinámicamente -->
         </VBox>
     </ScrollPane>
-    <Button text="Volver al Menú Principal" />
+    <Button fx:id="mainMenuButton" text="Volver al Menú Principal" />
 </VBox>
