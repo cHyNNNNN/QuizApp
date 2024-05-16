@@ -196,6 +196,153 @@ public class QuestionLoader {
         questions.add(new Question("¿Qué es una relación laboral ordinaria?",
                 new String[]{"Regulada por el Estatuto de los Trabajadores", "Una relación laboral no remunerada", "Una relación laboral a tiempo parcial", "Una relación laboral temporal"},
                 0));
+        questions.add(new Question("¿Qué es la Ley de Prevención de Riesgos Laborales?",
+                new String[]{"Una normativa que establece los derechos y deberes en materia de seguridad y salud en el trabajo", "Una guía de buenas prácticas empresariales", "Un manual de instrucciones para el uso de maquinaria", "Una normativa sobre gestión de recursos humanos"},
+                0));
+        questions.add(new Question("¿Cuál es el objetivo principal de la Ley de Prevención de Riesgos Laborales?",
+                new String[]{"Aumentar la productividad", "Proteger la seguridad y salud de los trabajadores", "Reducir costes empresariales", "Mejorar la imagen corporativa"},
+                1));
+        questions.add(new Question("¿Qué es un Plan de Prevención de Riesgos Laborales?",
+                new String[]{"Un documento que especifica las medidas preventivas en la empresa", "Un plan de acción para emergencias", "Una lista de derechos laborales", "Un calendario de vacaciones"},
+                0));
+        questions.add(new Question("¿Quién es responsable de la seguridad y salud en el trabajo?",
+                new String[]{"El trabajador", "El empresario", "El gobierno", "El sindicato"},
+                1));
+        questions.add(new Question("¿Qué establece el artículo 14 de la Ley 31/1995?",
+                new String[]{"El derecho de los trabajadores a una protección eficaz en materia de seguridad y salud", "La obligación de los trabajadores de seguir las normas de la empresa", "El derecho de los trabajadores a una formación continua", "La obligación de los empresarios de proporcionar equipos de protección"},
+                0));
+        questions.add(new Question("¿Qué es la vigilancia de la salud en el ámbito laboral?",
+                new String[]{"El control periódico del estado de salud de los trabajadores", "La supervisión del desempeño laboral", "La evaluación de riesgos", "La formación en primeros auxilios"},
+                0));
+        questions.add(new Question("¿Qué son los riesgos psicosociales?",
+                new String[]{"Riesgos relacionados con el entorno físico", "Riesgos derivados de la organización del trabajo y su entorno social", "Riesgos químicos", "Riesgos ergonómicos"},
+                1));
+        questions.add(new Question("¿Qué es un EPI?",
+                new String[]{"Equipo de Protección Individual", "Evaluación de Protección Interna", "Equipo de Prevención de Incendios", "Elemento de Protección Integral"},
+                0));
+        questions.add(new Question("¿Qué se debe hacer si un trabajador sufre un accidente y no respira?",
+                new String[]{"Realizar la reanimación cardiopulmonar", "Esperar a los servicios de emergencia", "Llevar al trabajador a la enfermería", "Aplicar un torniquete"},
+                0));
+        questions.add(new Question("¿Qué tipo de señalización proporciona una indicación referente a la salud y seguridad laboral?",
+                new String[]{"Señalización de seguridad", "Señalización vial", "Señalización de emergencia", "Señalización informativa"},
+                0));
+        questions.add(new Question("¿Qué establece el Real Decreto 485/1997 sobre señalización de seguridad y salud en el trabajo?",
+                new String[]{"Establece normas para el mantenimiento de equipos", "Regula los horarios laborales", "Define las normas de convivencia en el trabajo", "Regula las señales de seguridad en los centros de trabajo"},
+                3));
+        questions.add(new Question("¿Qué se considera una prueba de cultura general?",
+                new String[]{"Evaluación de habilidades técnicas", "Examen de conocimientos específicos del puesto", "Prueba de destrezas manuales", "Preguntas sobre geografía, historia, literatura, etc."},
+                3));
+        questions.add(new Question("¿Cuál es el propósito de las dinámicas de grupo en los procesos de selección?",
+                new String[]{"Determinar la capacidad física del candidato", "Evaluar el conocimiento teórico", "Comprobar cómo interactúan los candidatos ante situaciones", "Evaluar el conocimiento técnico"},
+                2));
+        questions.add(new Question("¿Qué fase de una entrevista de trabajo implica crear un clima agradable?",
+                new String[]{"Preguntas", "Objetivos", "Despedida", "Presentación y saludo"},
+                3));
+        questions.add(new Question("¿Qué es una precondición en la planificación de pruebas?",
+                new String[]{"Una condición después de la ejecución", "Una entrada de datos", "Un resultado esperado", "Una condición que debe cumplirse antes de la ejecución"},
+                3));
+        questions.add(new Question("¿Qué evalúan los test de personalidad en el ámbito laboral?",
+                new String[]{"Las competencias técnicas del candidato", "La capacidad física del candidato", "La personalidad y rasgos de comportamiento", "El conocimiento específico del puesto"},
+                2));
+        questions.add(new Question("¿Cuál es el propósito principal de un simulacro de emergencia?",
+                new String[]{"Evaluar el desempeño de los trabajadores", "Entrenar a los empleados en procedimientos de evacuación", "Medir la productividad laboral", "Implementar mejoras en la infraestructura"},
+                1));
+        questions.add(new Question("¿Qué es un riesgo laboral?",
+                new String[]{"Una situación que no afecta la salud del trabajador", "Una condición segura en el trabajo", "La probabilidad de que un trabajador sufra un daño", "Una oportunidad de promoción laboral"},
+                2));
+        questions.add(new Question("¿Qué establece el artículo 14 de la Ley 31/1995?",
+                new String[]{"La evaluación de los riesgos laborales", "El derecho de los trabajadores a una protección eficaz en materia de seguridad y salud", "La obligación de los trabajadores de asistir a cursos de formación", "La necesidad de realizar auditorías internas"},
+                1));
+        questions.add(new Question("¿Qué es la vigilancia de la salud?",
+                new String[]{"La supervisión del desempeño laboral", "El control periódico del estado de salud de los trabajadores", "La inspección de las instalaciones de trabajo", "La evaluación de riesgos laborales"},
+                1));
+        questions.add(new Question("¿Qué son los factores de riesgo psicosocial?",
+                new String[]{"Los riesgos que afectan la salud física del trabajador", "Los riesgos relacionados con la ergonomía", "Los riesgos derivados de la organización del trabajo y su entorno social", "Los riesgos químicos presentes en el lugar de trabajo"},
+                2));
+        questions.add(new Question("¿Cuál es el objetivo de la formación en prevención de riesgos laborales?",
+                new String[]{"Aumentar la productividad", "Promover el bienestar y la seguridad de los trabajadores", "Reducir los costos operativos", "Incrementar las ventas de la empresa"},
+                1));
+        questions.add(new Question("¿Qué es un accidente de trabajo?",
+                new String[]{"Un suceso que ocurre fuera del horario laboral", "Un incidente que no provoca lesiones", "Un suceso que ocurre durante el desempeño de las labores y que causa lesiones", "Una acción intencionada del trabajador"},
+                2));
+        questions.add(new Question("¿Qué se entiende por condiciones de trabajo?",
+                new String[]{"El ambiente social fuera del lugar de trabajo", "El entorno en el que se desarrollan las tareas laborales", "Las políticas de recursos humanos", "La estructura organizativa de la empresa"},
+                1));
+        questions.add(new Question("¿Qué establece el artículo 21 de la Ley 31/1995?",
+                new String[]{"El derecho de los trabajadores a la huelga", "El deber de los trabajadores de observar las medidas de prevención que se adopten", "La obligación del empresario de garantizar la seguridad y salud de los trabajadores", "El derecho de los trabajadores a la formación continua"},
+                2));
+        questions.add(new Question("¿Qué se considera un equipo de trabajo según la normativa de prevención?",
+                new String[]{"Cualquier máquina, aparato o herramienta utilizados en el trabajo", "Un grupo de empleados", "Un conjunto de documentos", "Un programa de software"},
+                0));
+        questions.add(new Question("¿Qué es la seguridad en el trabajo?",
+                new String[]{"La capacidad de realizar tareas con rapidez", "La eliminación de todos los riesgos laborales", "El conjunto de técnicas y procedimientos destinados a proteger la integridad física y mental de los trabajadores", "La supervisión constante de los empleados"},
+                2));
+        questions.add(new Question("¿Qué se entiende por riesgo grave e inminente?",
+                new String[]{"Un riesgo que puede causar daño en un largo plazo", "Un riesgo que puede causar daño inmediato a la salud de los trabajadores", "Un riesgo que no necesita medidas preventivas", "Un riesgo que no se puede evaluar"},
+                1));
+        questions.add(new Question("¿Qué son las medidas preventivas en el ámbito laboral?",
+                new String[]{"Acciones correctivas", "Acciones destinadas a evitar o disminuir los riesgos laborales", "Acciones que aumentan la carga de trabajo", "Acciones que reducen la productividad"},
+                1));
+        questions.add(new Question("¿Qué establece el artículo 22 de la Ley 31/1995?",
+                new String[]{"El derecho de los trabajadores a la vigilancia periódica de su salud", "La obligación de los trabajadores de mantener la limpieza en el lugar de trabajo", "La necesidad de realizar auditorías externas", "El derecho de los trabajadores a la promoción interna"},
+                0));
+        questions.add(new Question("¿Qué es un plan de evacuación?",
+                new String[]{"Un documento que establece las medidas preventivas en la empresa", "Un plan de acción para emergencias", "Una lista de derechos laborales", "Un calendario de vacaciones"},
+                1));
+        questions.add(new Question("¿Qué es un simulacro de emergencia?",
+                new String[]{"Una prueba de producción", "Un ejercicio para entrenar a los trabajadores en la respuesta ante emergencias", "Un plan de mantenimiento de equipos", "Un plan financiero"},
+                1));
+        questions.add(new Question("¿Qué se entiende por condiciones ergonómicas de trabajo?",
+                new String[]{"Las condiciones económicas de la empresa", "Las características del entorno físico y social donde se realiza el trabajo", "La política de recursos humanos", "La estructura organizativa"},
+                1));
+        questions.add(new Question("¿Qué establece el artículo 17 de la Ley 31/1995?",
+                new String[]{"La obligación de los empresarios de llevar a cabo una evaluación inicial de riesgos", "El derecho de los trabajadores a la vigilancia periódica de su salud", "La obligación de los trabajadores de mantener la confidencialidad de la información", "El derecho de los trabajadores a la promoción interna"},
+                0));
+        questions.add(new Question("¿Qué son los riesgos físicos?",
+                new String[]{"Riesgos relacionados con el entorno social", "Riesgos derivados de la organización del trabajo", "Riesgos asociados a agentes físicos como ruido, vibraciones, etc.", "Riesgos ergonómicos"},
+                2));
+        questions.add(new Question("¿Qué es un plan de prevención?",
+                new String[]{"Un documento que especifica las medidas preventivas a adoptar en la empresa", "Un plan de producción", "Un plan de mantenimiento de equipos", "Un plan financiero"},
+                0));
+        questions.add(new Question("¿Qué se entiende por condiciones psicosociales de trabajo?",
+                new String[]{"Las condiciones económicas de la empresa", "Las características del entorno social y organizativo donde se realiza el trabajo", "La política de recursos humanos", "La estructura organizativa"},
+                1));
+        questions.add(new Question("¿Qué establece el artículo 18 de la Ley 31/1995?",
+                new String[]{"El derecho de los trabajadores a la formación en materia de prevención de riesgos laborales", "La obligación de los trabajadores de mantener la confidencialidad de la información", "El derecho de los trabajadores a la promoción interna", "La obligación de los empresarios de proporcionar equipos de protección"},
+                0));
+        questions.add(new Question("¿Qué es un dispositivo de emergencia?",
+                new String[]{"Un equipo informático", "Un equipo de oficina", "Un conjunto de medios y procedimientos destinados a garantizar la seguridad en situaciones de emergencia", "Un equipo de comunicación"},
+                2));
+        questions.add(new Question("¿Qué es la ergonomía?",
+                new String[]{"La ciencia que estudia la adaptación del trabajo a las capacidades y condiciones del trabajador", "Una técnica de producción", "Un estilo de liderazgo", "Una forma de organización del trabajo"},
+                0));
+        questions.add(new Question("¿Qué es el estrés laboral?",
+                new String[]{"Un estado de bienestar y satisfacción en el trabajo", "Una respuesta física y emocional a exigencias laborales", "Una condición médica que requiere tratamiento inmediato", "Un tipo de entrenamiento para mejorar la productividad"},
+                1));
+        questions.add(new Question("¿Qué es una auditoría de prevención?",
+                new String[]{"Una revisión del desempeño de los empleados", "Una inspección de las instalaciones de trabajo", "Una evaluación sistemática para comprobar el cumplimiento de la normativa de prevención", "Una revisión de la contabilidad de la empresa"},
+                2));
+        questions.add(new Question("¿Qué son los riesgos químicos?",
+                new String[]{"Riesgos derivados de la organización del trabajo", "Riesgos relacionados con el entorno social", "Riesgos asociados a la manipulación de sustancias químicas", "Riesgos ergonómicos"},
+                2));
+        questions.add(new Question("¿Qué establece el artículo 15 de la Ley 31/1995?",
+                new String[]{"El derecho de los trabajadores a la formación continua", "La obligación de los empresarios de proporcionar equipos de protección", "El deber de los empresarios de garantizar la seguridad y salud de los trabajadores", "La necesidad de realizar auditorías internas"},
+                2));
+        questions.add(new Question("¿Qué son los riesgos psicosociales?",
+                new String[]{"Riesgos relacionados con la organización del trabajo", "Riesgos derivados del entorno físico", "Riesgos asociados a factores psicológicos y sociales", "Riesgos relacionados con la ergonomía"},
+                2));
+        questions.add(new Question("¿Qué es la fatiga laboral?",
+                new String[]{"Un estado de bienestar en el trabajo", "Una disminución de la capacidad física y mental debido al trabajo", "Una condición médica crónica", "Una técnica de relajación"},
+                1));
+        questions.add(new Question("¿Qué es la señalización de seguridad?",
+                new String[]{"La señalización vial", "Las señales que informan sobre los riesgos laborales y las medidas preventivas", "La señalización de emergencias", "La señalización publicitaria"},
+                1));
+        questions.add(new Question("¿Qué es la Ley de Prevención de Riesgos Laborales?",
+                new String[]{"Una normativa que establece los derechos y deberes en materia de seguridad y salud en el trabajo", "Una guía de buenas prácticas empresariales", "Un manual de instrucciones para el uso de maquinaria", "Una normativa sobre gestión de recursos humanos"},
+                0));
+        questions.add(new Question("¿Qué es el riesgo eléctrico?",
+                new String[]{"El riesgo de sufrir una descarga eléctrica", "El riesgo de caídas", "El riesgo de incendios", "El riesgo de explosiones"},
+                0));
         questions.add(new Question("¿Qué incluye una relación laboral especial?",
                 new String[]{"Autónomos", "Trabajadores a tiempo parcial", "Deportistas profesionales", "Trabajadores temporales"},
                 2));
@@ -696,6 +843,96 @@ public class QuestionLoader {
         questions.add(new Question("¿Qué es una prueba unitaria?",
                 new String[]{"Una prueba que se realiza al sistema completo", "Una prueba que se realiza a una unidad o componente específico del código", "Una prueba que se realiza solo al código de interfaz de usuario", "Una prueba que se realiza a la base de datos"},
                 1));
+        questions.add(new Question("¿Qué es la programación modular?",
+                new String[]{"Dividir un problema en subproblemas independientes", "Un tipo de programación secuencial", "Un tipo de programación funcional", "Un tipo de programación orientada a objetos"},
+                0));
+        questions.add(new Question("¿Cuál es una ventaja de la programación modular?",
+                new String[]{"Aumenta el uso de memoria", "Facilita la reutilización de código", "Es difícil de mantener", "No permite la independencia de fallos"},
+                1));
+        questions.add(new Question("¿Qué es un módulo en programación?",
+                new String[]{"Un programa completo", "Un lenguaje de programación", "Una parte independiente de un problema", "Un tipo de dato compuesto"},
+                2));
+        questions.add(new Question("¿Cuál es una desventaja de la programación modular?",
+                new String[]{"Facilita la documentación", "Permite la reutilización de módulos", "Aumenta el uso de memoria", "Facilita el mantenimiento"},
+                2));
+        questions.add(new Question("¿En qué consiste el diseño descendente (top down)?",
+                new String[]{"Dividir un gran problema en subproblemas", "Empezar desde los módulos más pequeños hasta el módulo mayor", "Inventar el código", "Ninguna de las opciones es la correcta"},
+                0));
+        questions.add(new Question("¿Qué es un subprograma?",
+                new String[]{"Un tipo de dato compuesto", "Un programa completo", "Un lenguaje de programación", "Una parte del problema que puede resolverse de forma independiente"},
+                3));
+        questions.add(new Question("¿Cuál es la función principal en un programa en C#?",
+                new String[]{"start()", "init()", "run()", "main()"},
+                3));
+        questions.add(new Question("¿Qué permite la función main() en un programa en C#?",
+                new String[]{"Crear nuevos módulos", "Declarar variables globales", "Gestionar el flujo de ejecución", "Definir tipos de datos"},
+                2));
+        questions.add(new Question("¿Qué es una función en C#?",
+                new String[]{"Un conjunto de instrucciones con un nombre y un tipo específico", "Un programa completo", "Un lenguaje de programación", "Un tipo de dato compuesto"},
+                0));
+        questions.add(new Question("¿Qué es una variable global?",
+                new String[]{"Una variable creada dentro de un método", "Una variable que no se puede modificar", "Una variable que solo existe en el main", "Una variable creada fuera de cualquier método"},
+                3));
+        questions.add(new Question("¿Qué palabra clave se utiliza para definir un método que no devuelve un valor en C#?",
+                new String[]{"int", "return", "static", "void"},
+                3));
+        questions.add(new Question("¿Qué realiza el siguiente código? double angulo = Math.PI * grados / 180.0; double result = Math.Cos(angulo);",
+                new String[]{"Saca por pantalla el seno de un ángulo", "El código no es correcto", "Ninguna de las opciones es correcta", "Saca por pantalla el coseno de un ángulo"},
+                3));
+        questions.add(new Question("¿Qué es la recursividad?",
+                new String[]{"Una estructura de datos", "Un tipo de variable", "Un operador matemático", "La llamada de una función a sí misma hasta que cumpla una determinada condición"},
+                3));
+        questions.add(new Question("¿Cuál es el caso base en la recursividad?",
+                new String[]{"El que se ejecuta indefinidamente", "El que permite la finalización del programa", "El que nunca se ejecuta", "El que inicia el programa"},
+                1));
+        questions.add(new Question("¿Qué es el paso de parámetros por valor?",
+                new String[]{"Se modifica el parámetro original", "No se permite modificar el parámetro", "Se realiza una copia del parámetro que se ha pasado", "Se pasa el parámetro por referencia"},
+                2));
+        questions.add(new Question("¿Qué es el paso de parámetros por referencia?",
+                new String[]{"Se realiza una copia del parámetro", "Las modificaciones afectan al parámetro original", "No se permite modificar el parámetro", "Se pasa el parámetro por valor"},
+                1));
+        questions.add(new Question("¿Qué es una librería en C#?",
+                new String[]{"Un tipo de dato compuesto", "Un lenguaje de programación", "Un programa completo", "Un conjunto de métodos reutilizables"},
+                3));
+        questions.add(new Question("¿Qué es el método Next de la librería Random en C#?",
+                new String[]{"Calcula un número aleatorio dentro de un intervalo", "Devuelve el coseno de un número", "Devuelve una cadena de texto aleatoria", "Devuelve el factorial de un número"},
+                0));
+        questions.add(new Question("¿Qué realiza el siguiente código? double calculo = Math.Pow(10, 2);",
+                new String[]{"Calcula el coseno de un ángulo", "Calcula el seno de un ángulo", "Calcula la potencia de base 10 y exponente 2", "Calcula el logaritmo de un número"},
+                2));
+        questions.add(new Question("¿Qué es una variable local?",
+                new String[]{"Una variable creada fuera de cualquier método", "Una variable creada dentro de un método", "Una variable que no se puede modificar", "Una variable que solo existe en el main"},
+                1));
+        questions.add(new Question("¿Qué muestra el siguiente código? int a = 10; int b = 5; Console.WriteLine(suma(a,b)); static int suma(int x,int y) { return x + y; }",
+                new String[]{"15", "10", "5", "La función no está bien construida"},
+                0));
+        questions.add(new Question("¿Qué realiza el siguiente código? static int factorial(int n) { if (n>1) return n*factorial(n-1); else return 1; }",
+                new String[]{"Calcula el factorial de un número", "Calcula el coseno de un ángulo", "Calcula la potencia de un número", "Calcula el logaritmo de un número"},
+                0));
+        questions.add(new Question("¿Qué es una función en C#?",
+                new String[]{"Un conjunto de instrucciones con un nombre y un tipo específico", "Un programa completo", "Un lenguaje de programación", "Un tipo de dato compuesto"},
+                0));
+        questions.add(new Question("¿Qué realiza el siguiente código? public static int Potencia(int nBase, int nExponente) { int temporal = 1; for (int i = 1; i <= nExponente; i++) temporal *= nBase; return temporal; }",
+                new String[]{"Calcula la potencia de un número", "Calcula el factorial de un número", "Calcula el coseno de un ángulo", "Calcula el logaritmo de un número"},
+                0));
+        questions.add(new Question("¿Qué es una variable global?",
+                new String[]{"Una variable creada fuera de cualquier método", "Una variable creada dentro de un método", "Una variable que no se puede modificar", "Una variable que solo existe en el main"},
+                0));
+        questions.add(new Question("¿Qué es la modularización en programación?",
+                new String[]{"Dividir un problema en subproblemas independientes", "Un tipo de programación secuencial", "Un tipo de programación funcional", "Un tipo de programación orientada a objetos"},
+                0));
+        questions.add(new Question("¿Cuál es una ventaja de la programación modular?",
+                new String[]{"Facilita la reutilización de código", "Aumenta el uso de memoria", "Es difícil de mantener", "No permite la independencia de fallos"},
+                0));
+        questions.add(new Question("¿Qué es un módulo en programación?",
+                new String[]{"Una parte independiente de un problema", "Un programa completo", "Un lenguaje de programación", "Un tipo de dato compuesto"},
+                0));
+        questions.add(new Question("¿Cuál es una desventaja de la programación modular?",
+                new String[]{"Aumenta el uso de memoria", "Facilita el mantenimiento", "Facilita la documentación", "Permite la reutilización de módulos"},
+                0));
+        questions.add(new Question("¿En qué consiste el diseño descendente (top down)?",
+                new String[]{"Dividir un gran problema en subproblemas", "Empezar desde los módulos más pequeños hasta el módulo mayor", "Inventar el código", "Ninguna de las opciones es la correcta"},
+                0));
         questions.add(new Question("¿Qué es la documentación del código?",
                 new String[]{"Un conjunto de comentarios y notas que explican cómo funciona el código", "Una variable global", "Una constante", "Un bucle"},
                 0));
@@ -1265,6 +1502,150 @@ public class QuestionLoader {
         questions.add(new Question("¿Qué es un documento XML bien formado?",
                 new String[]{"Un documento que cumple con las reglas de sintaxis de XML", "Un documento que utiliza DTD", "Un documento que utiliza esquemas XML", "Un documento que contiene comentarios"},
                 0));
+        questions.add(new Question("¿Qué es un lenguaje de marcas?",
+                new String[]{"Un sistema para anotar un documento en una manera que es sintácticamente distinguible del texto", "Un lenguaje de programación", "Un protocolo de red", "Una herramienta de diseño gráfico"},
+                0));
+        questions.add(new Question("¿Qué significa SGML?",
+                new String[]{"Simple Generalized Markup Language", "Standard Generalized Markup Language", "System Generalized Markup Language", "Structured General Markup Language"},
+                1));
+        questions.add(new Question("¿Cuál de las siguientes no es una ventaja de los archivos de texto plano?",
+                new String[]{"Son independientes del sistema operativo", "Pueden contener imágenes y sonido", "Pueden ser interpretados por un simple editor de textos", "No necesitan software específico para ser leídos"},
+                1));
+        questions.add(new Question("¿Qué es un espacio de nombres en XML?",
+                new String[]{"Un atributo de un elemento", "Una instrucción de procesamiento", "Una colección de etiquetas XML con un ámbito semántico en común", "Un comentario en el documento"},
+                2));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <head> en un documento HTML?",
+                new String[]{"Contener información general acerca del documento", "Mostrar el contenido principal de la página", "Definir la estructura básica del documento", "Incluir enlaces a otros documentos"},
+                0));
+        questions.add(new Question("¿Qué etiqueta HTML se utiliza para crear un enlace?",
+                new String[]{"<link>", "<href>", "<url>", "<a>"},
+                3));
+        questions.add(new Question("¿Cuál es el propósito del atributo 'alt' en la etiqueta <img>?",
+                new String[]{"Definir la ubicación de la imagen", "Especificar la altura de la imagen", "Proveer un texto alternativo para la imagen", "Indicar el formato de la imagen"},
+                2));
+        questions.add(new Question("¿Qué significa HTML?",
+                new String[]{"HyperTool Markup Language", "Hyperlink Markup Language", "HighText Markup Language", "HyperText Markup Language"},
+                3));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir una tabla en HTML?",
+                new String[]{"<tr>", "<table>", "<td>", "<th>"},
+                1));
+        questions.add(new Question("¿Cuál es la función del atributo 'href' en la etiqueta <a>?",
+                new String[]{"Especificar la URL del recurso al que se enlaza", "Definir el estilo del enlace", "Indicar el color del enlace", "Especificar el tamaño del enlace"},
+                0));
+        questions.add(new Question("¿Qué significa CSS?",
+                new String[]{"Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"},
+                0));
+        questions.add(new Question("¿Cuál es el propósito de la etiqueta <title> en HTML?",
+                new String[]{"Especificar el título del documento", "Definir el cuerpo del documento", "Incluir una imagen en el documento", "Crear un enlace en el documento"},
+                0));
+        questions.add(new Question("¿Qué etiqueta HTML se utiliza para definir una lista ordenada?",
+                new String[]{"<ul>", "<li>", "<dl>", "<ol>"},
+                3));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <meta> en HTML?",
+                new String[]{"Proveer metadatos sobre el documento", "Incluir un script en el documento", "Definir un estilo para el documento", "Crear un formulario en el documento"},
+                0));
+        questions.add(new Question("¿Qué etiqueta se utiliza para insertar un salto de línea en HTML?",
+                new String[]{"<hr>", "<p>", "<br>", "<div>"},
+                2));
+        questions.add(new Question("¿Qué significa XHTML?",
+                new String[]{"Example HyperText Markup Language", "Extended HyperText Markup Language", "Extra HyperText Markup Language", "Extensible HyperText Markup Language"},
+                3));
+        questions.add(new Question("¿Qué es un DTD en XML?",
+                new String[]{"Definición Total de Datos", "Documento Tipo Definido", "Definición Tipo de Documento", "Datos Tipo Documento"},
+                2));
+        questions.add(new Question("¿Qué significa RSS?",
+                new String[]{"Real-time Simple Syndication", "Rich Site Summary", "Resource Site Syndication", "Really Simple Syndication"},
+                3));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <footer> en HTML5?",
+                new String[]{"Definir el pie de página del documento", "Incluir un encabezado en el documento", "Crear una sección en el documento", "Insertar una imagen en el documento"},
+                0));
+        questions.add(new Question("¿Qué significa XML?",
+                new String[]{"Example Markup Language", "Extensible Markup Language", "Extra Markup Language", "Extended Markup Language"},
+                1));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir una cabecera en HTML?",
+                new String[]{"<head>", "<header>", "<h1>", "<title>"},
+                1));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <section> en HTML5?",
+                new String[]{"Crear un enlace en el documento", "Insertar una imagen en el documento", "Definir una sección en el documento", "Incluir un pie de página en el documento"},
+                2));
+        questions.add(new Question("¿Qué significa SVG?",
+                new String[]{"Scalable Visual Graphics", "Simple Vector Graphics", "Structured Visual Graphics", "Scalable Vector Graphics"},
+                3));
+        questions.add(new Question("¿Cuál es el propósito del atributo 'id' en HTML?",
+                new String[]{"Definir el estilo de un elemento", "Especificar el tamaño de un elemento", "Indicar la posición de un elemento", "Identificar un elemento de manera única en el documento"},
+                3));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir una lista de definición en HTML?",
+                new String[]{"<ul>", "<ol>", "<dl>", "<li>"},
+                2));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <strong> en HTML?",
+                new String[]{"Aplicar un estilo de cursiva al texto", "Subrayar el texto", "Tachar el texto", "Aplicar un estilo de negrita al texto"},
+                3));
+        questions.add(new Question("¿Qué significa JSON?",
+                new String[]{"JavaScript Object Notation", "Java System Object Notation", "Java Syntax Object Notation", "JavaScript Online Notation"},
+                0));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir un área navegable en una imagen en HTML?",
+                new String[]{"<img>", "<nav>", "<area>", "<map>"},
+                2));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <nav> en HTML5?",
+                new String[]{"Incluir una imagen en el documento", "Crear una tabla en el documento", "Insertar un formulario en el documento", "Definir un conjunto de enlaces de navegación"},
+                3));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir un formulario en HTML?",
+                new String[]{"<input>", "<fieldset>", "<form>", "<button>"},
+                2));
+        questions.add(new Question("¿Qué significa SQL?",
+                new String[]{"Simple Query Language", "System Query Language", "Standard Query Language", "Structured Query Language"},
+                3));
+        questions.add(new Question("¿Qué etiqueta HTML se utiliza para definir una celda en una tabla?",
+                new String[]{"<th>", "<tr>", "<td>", "<table>"},
+                2));
+        questions.add(new Question("¿Cuál es el propósito del atributo 'class' en HTML?",
+                new String[]{"Aplicar estilos CSS a un grupo de elementos", "Especificar el tamaño de un elemento", "Indicar la posición de un elemento", "Identificar un elemento de manera única"},
+                0));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir una cita en HTML?",
+                new String[]{"<q>", "<cite>", "<blockquote>", "<quote>"},
+                2));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <em> en HTML?",
+                new String[]{"Aplicar un énfasis al texto", "Aplicar un estilo de negrita al texto", "Subrayar el texto", "Tachar el texto"},
+                0));
+        questions.add(new Question("¿Qué significa URL?",
+                new String[]{"Unique Resource Locator", "Unified Resource Locator", "Uniform Resource Locator", "Universal Resource Locator"},
+                2));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir un párrafo en HTML?",
+                new String[]{"<br>", "<div>", "<span>", "<p>"},
+                3));
+        questions.add(new Question("¿Cuál es el propósito del atributo 'style' en HTML?",
+                new String[]{"Especificar el tamaño de un elemento", "Indicar la posición de un elemento", "Identificar un elemento de manera única", "Aplicar estilos CSS a un elemento"},
+                3));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir una lista no ordenada en HTML?",
+                new String[]{"<ul>", "<ol>", "<li>", "<dl>"},
+                0));
+        questions.add(new Question("¿Qué significa HTTP?",
+                new String[]{"Hypertext Transfer Protocol", "Hypertext Transmission Protocol", "Hypertext Transaction Protocol", "Hypertext Transport Protocol"},
+                0));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <span> en HTML?",
+                new String[]{"Aplicar estilos a una parte del texto", "Definir un bloque de contenido", "Crear un enlace", "Insertar una imagen"},
+                0));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir una división o sección en un documento HTML?",
+                new String[]{"<div>", "<section>", "<span>", "<article>"},
+                0));
+        questions.add(new Question("¿Cuál es el propósito del atributo 'src' en la etiqueta <img>?",
+                new String[]{"Especificar la URL de la imagen", "Definir el tamaño de la imagen", "Aplicar un estilo a la imagen", "Indicar el formato de la imagen"},
+                0));
+        questions.add(new Question("¿Qué significa PHP?",
+                new String[]{"Hypertext Preprocessor", "Personal Home Page", "Pretext Hypertext Processor", "Private Home Page"},
+                0));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir un encabezado en HTML?",
+                new String[]{"<h1>", "<head>", "<title>", "<header>"},
+                0));
+        questions.add(new Question("¿Cuál es la función de la etiqueta <code> en HTML?",
+                new String[]{"Definir un fragmento de código", "Aplicar un estilo de negrita al texto", "Subrayar el texto", "Tachar el texto"},
+                0));
+        questions.add(new Question("¿Qué significa DOM?",
+                new String[]{"Document Object Model", "Data Object Model", "Document Order Model", "Data Order Model"},
+                0));
+        questions.add(new Question("¿Qué etiqueta se utiliza para definir un área de texto en HTML?",
+                new String[]{"<textarea>", "<input>", "<form>", "<fieldset>"},
+                0));
         questions.add(new Question("¿Qué etiqueta se utiliza para definir una cabecera en HTML5?",
                 new String[]{"<div>", "<header>", "<section>", "<article>"},
                 1));
@@ -1494,6 +1875,96 @@ public class QuestionLoader {
     }
 
     private static void addDatabaseQuestions(List<Question> questions) {
+        questions.add(new Question("¿Cuál es el software cliente de Oracle?",
+                new String[]{"Workbench", "SQL Developer", "PgAdmin", "DBeaver"}, 1));
+        questions.add(new Question("¿Cuál es la primera fase en la instalación de Oracle Database Express?",
+                new String[]{"Crear una BD", "Descargar el JDK", "Conectar al servidor", "Configurar usuarios"}, 1));
+        questions.add(new Question("¿Qué permite el comando CREATE USER en Oracle?",
+                new String[]{"Crear un usuario nuevo", "Modificar un usuario", "Eliminar un usuario", "Consultar usuarios"}, 0));
+        questions.add(new Question("¿Cuál es el nombre del rol en Oracle que permite conectar a la BD?",
+                new String[]{"DBA", "RESOURCE", "SYS", "CONNECT"}, 3));
+        questions.add(new Question("¿Cuál es la vista en Oracle para examinar a los usuarios administrativos?",
+                new String[]{"DBA_USERS", "v$PWFILE_USERS", "USER_VIEWS", "ALL_USERS"}, 1));
+        questions.add(new Question("¿Cuál es el tamaño máximo para los tipos de datos LOB en Oracle?",
+                new String[]{"2 GB", "1 GB", "8 GB", "4 GB"}, 3));
+        questions.add(new Question("¿Cuál de los siguientes no es un privilegio en MySQL?",
+                new String[]{"SYSBACKUP", "SELECT", "INSERT", "UPDATE"}, 0));
+        questions.add(new Question("¿Qué palabra clave en MySQL se utiliza para mostrar todos los procesos?",
+                new String[]{"SHOW PROCESSES", "SHOW ALL PROCESSES", "SHOW PROCESSLIST", "SHOW FULL PROCESSLIST"}, 2));
+        questions.add(new Question("¿Cuál es el nombre de la cuenta que tiene todos los privilegios en MySQL?",
+                new String[]{"ADMIN", "ROOT", "SYS", "USER"}, 1));
+        questions.add(new Question("¿Qué parámetro define el número máximo de intentos fallidos de inicio de sesión en Oracle?",
+                new String[]{"FAILED_LOGIN_ATTEMPTS", "LOGIN_MAX_ATTEMPTS", "MAX_FAILED_LOGINS", "FAILED_ATTEMPTS"}, 0));
+        questions.add(new Question("¿Qué herramienta de Oracle permite la gestión de usuarios?",
+                new String[]{"SQL*Plus", "Oracle Manager", "SQL Developer", "Database Control"}, 2));
+        questions.add(new Question("¿Qué comando en Oracle permite modificar las propiedades de una cuenta de usuario?",
+                new String[]{"ALTER USER", "MODIFY USER", "CHANGE USER", "UPDATE USER"}, 0));
+        questions.add(new Question("¿Qué sentencia en MySQL se utiliza para eliminar un usuario?",
+                new String[]{"REMOVE USER", "DELETE USER", "DROP USER", "ELIMINATE USER"}, 2));
+        questions.add(new Question("¿Cuál es el formato de comando correcto para crear un usuario en MySQL?",
+                new String[]{"NEW USER 'nombre'@'localhost' IDENTIFIED BY 'password';", "CREATE USER 'nombre'@'localhost' IDENTIFIED BY 'password';", "ADD USER 'nombre'@'localhost' IDENTIFIED BY 'password';", "INSERT USER 'nombre'@'localhost' IDENTIFIED BY 'password';"}, 1));
+        questions.add(new Question("¿Qué herramienta en MySQL proporciona una interfaz gráfica para la administración de bases de datos?",
+                new String[]{"SQL Developer", "MySQL Workbench", "PhpMyAdmin", "Toad"}, 1));
+        questions.add(new Question("¿Cuál es el nombre del diccionario de datos en Oracle?",
+                new String[]{"SYSTEM", "SYSAUX", "USERS", "DBA"}, 0));
+        questions.add(new Question("¿Qué operador en MySQL se utiliza para concatenar cadenas?",
+                new String[]{"||", "++", "&&", "concat"}, 3));
+        questions.add(new Question("¿Cuál es el comando en Oracle para ver la estructura de una tabla?",
+                new String[]{"SHOW", "DESCRIBE", "DESC", "INFO"}, 2));
+        questions.add(new Question("¿Qué herramienta de Oracle permite la gestión de bases de datos desde la línea de comandos?",
+                new String[]{"SQL Developer", "SQL*Plus", "Oracle Manager", "Database Control"}, 1));
+        questions.add(new Question("¿Qué tipo de dato en Oracle se utiliza para almacenar objetos binarios?",
+                new String[]{"RAW", "VARBINARY", "LONG RAW", "BLOB"}, 3));
+        questions.add(new Question("¿Qué comando en MySQL se utiliza para ver todos los usuarios del sistema?",
+                new String[]{"SHOW USERS;", "DESCRIBE USERS;", "LIST USERS;", "SELECT * FROM mysql.user;"}, 3));
+        questions.add(new Question("¿Qué tipo de rol permite realizar tareas operativas básicas sin poder visualizar los datos en Oracle?",
+                new String[]{"SYSDBA", "DBA", "RESOURCE", "SYSOPER"}, 3));
+        questions.add(new Question("¿Cuál es el comando en Oracle para crear una tabla?",
+                new String[]{"CREATE TABLE", "NEW TABLE", "ADD TABLE", "INSERT TABLE"}, 0));
+        questions.add(new Question("¿Qué tipo de variable en PL/SQL puede cambiar su valor?",
+                new String[]{"OUT", "IN", "CONSTANT", "IN OUT"}, 3));
+        questions.add(new Question("¿Qué comando en MySQL permite asignar privilegios a un usuario?",
+                new String[]{"GIVE", "GRANT", "ASSIGN", "ALLOW"}, 1));
+        questions.add(new Question("¿Cuál es el parámetro en MySQL para limitar el número de conexiones por hora?",
+                new String[]{"LIMIT_CONNECTIONS", "HOURLY_CONNECTIONS", "MAX_CONNECTIONS_PER_HOUR", "CONNECTIONS_LIMIT"}, 2));
+        questions.add(new Question("¿Qué herramienta de Oracle se utiliza para desarrollo de aplicaciones?",
+                new String[]{"SQL Developer", "SQL*Plus", "Oracle Manager", "Database Control"}, 0));
+        questions.add(new Question("¿Cuál es el comando en MySQL para crear una base de datos?",
+                new String[]{"CREATE DATABASE", "NEW DATABASE", "ADD DATABASE", "INSERT DATABASE"}, 0));
+        questions.add(new Question("¿Qué tipo de dato en Oracle se utiliza para almacenar fechas?",
+                new String[]{"DATE", "TIMESTAMP", "DATETIME", "TIME"}, 0));
+        questions.add(new Question("¿Qué herramienta en MySQL permite crear y gestionar esquemas de bases de datos?",
+                new String[]{"MySQL Workbench", "PhpMyAdmin", "SQL Developer", "Toad"}, 0));
+        questions.add(new Question("¿Qué comando en Oracle permite eliminar una tabla?",
+                new String[]{"REMOVE TABLE", "DELETE TABLE", "ELIMINATE TABLE", "DROP TABLE"}, 3));
+        questions.add(new Question("¿Qué operador en PL/SQL se utiliza para multiplicar?",
+                new String[]{"x", "/", "*", "multiply"}, 2));
+        questions.add(new Question("¿Qué tipo de variable en PL/SQL no puede cambiar su valor?",
+                new String[]{"IN", "OUT", "VARIABLE", "CONSTANT"}, 3));
+        questions.add(new Question("¿Cuál es el comando en MySQL para eliminar una base de datos?",
+                new String[]{"REMOVE DATABASE", "DELETE DATABASE", "ELIMINATE DATABASE", "DROP DATABASE"}, 3));
+        questions.add(new Question("¿Qué herramienta de Oracle se utiliza para ejecutar scripts SQL desde la línea de comandos?",
+                new String[]{"SQL*Plus", "SQL Developer", "Oracle Manager", "Database Control"}, 0));
+        questions.add(new Question("¿Cuál es el comando en MySQL para modificar una tabla?",
+                new String[]{"CHANGE TABLE", "ALTER TABLE", "MODIFY TABLE", "UPDATE TABLE"}, 1));
+        questions.add(new Question("¿Qué parámetro en Oracle define el espacio de almacenamiento para un usuario?",
+                new String[]{"storage", "tablespace", "space", "quota"}, 1));
+        questions.add(new Question("¿Cuál es el comando en PL/SQL para iniciar un bloque de código?",
+                new String[]{"START", "BEGIN", "INITIATE", "OPEN"}, 1));
+        questions.add(new Question("¿Qué comando en Oracle permite crear un rol?",
+                new String[]{"NEW ROLE", "INSERT ROLE", "CREATE ROLE", "ADD ROLE"}, 2));
+        questions.add(new Question("¿Cuál es el nombre del sistema de gestión de bases de datos de Oracle que se utiliza de manera gratuita?",
+                new String[]{"Oracle Free Edition", "Oracle Lite", "Oracle Community", "Oracle Database Express"}, 3));
+        questions.add(new Question("¿Qué comando en MySQL se utiliza para cambiar la estructura de una tabla?",
+                new String[]{"ALTER TABLE", "MODIFY TABLE", "CHANGE TABLE", "UPDATE TABLE"}, 0));
+        questions.add(new Question("¿Qué herramienta de Oracle se utiliza para generar informes y gráficos?",
+                new String[]{"Oracle Reports", "Oracle Forms", "Oracle SQL Developer", "Oracle Data Modeler"}, 0));
+        questions.add(new Question("¿Qué comando en PL/SQL se utiliza para declarar una variable?",
+                new String[]{"DECLARE", "SET", "DEFINE", "VARIABLE"}, 0));
+        questions.add(new Question("¿Qué comando en Oracle permite consultar el espacio libre en una tablespace?",
+                new String[]{"DBA_FREE_SPACE", "DBA_TABLESPACE_USAGE", "DBA_SPACE", "DBA_TABLESPACE_FREE"}, 0));
+        questions.add(new Question("¿Qué herramienta de Oracle permite realizar backups y recuperaciones?",
+                new String[]{"RMAN", "Data Pump", "EXPDP", "IMPDP"}, 0));
         questions.add(new Question("¿Qué comando se utiliza en Oracle para habilitar la visualización de mensajes en la consola?",
                 new String[]{"SHOW MESSAGES ON", "ENABLE OUTPUT", "SET SERVEROUTPUT ON", "DISPLAY MESSAGES ON"},
                 2));
@@ -1692,6 +2163,213 @@ public class QuestionLoader {
     }
 
     private static void addEntornosDesarrolloQuestions(List<Question> questions) {
+        questions.add(new Question("¿Qué es el software de sistema?",
+                new String[]{"Software de ofimática", "Software que hace que el hardware funcione", "Software médico", "Software de diseño asistido"},
+                1));
+
+        questions.add(new Question("¿Qué es el software de aplicación?",
+                new String[]{"Software que administra la parte física", "Controladores de dispositivos", "Herramientas de diagnóstico", "Programas que realizan tareas específicas para el usuario"},
+                3));
+
+        questions.add(new Question("¿Qué es el software de programación?",
+                new String[]{"Herramientas para escribir programas informáticos", "Sistemas operativos", "Controladores de dispositivos", "Software de diseño asistido"},
+                0));
+
+        questions.add(new Question("¿Qué es el software shareware?",
+                new String[]{"Software completamente gratuito", "Software que se puede evaluar de forma gratuita con limitaciones", "Software con publicidad incrustada", "Software que permite el acceso libre al código fuente"},
+                1));
+
+        questions.add(new Question("¿Qué es el software libre?",
+                new String[]{"Software gratuito sin restricciones", "Software que concede libertades al usuario para usar, modificar y compartir", "Software con publicidad incrustada", "Software que no permite acceso al código fuente"},
+                1));
+
+        questions.add(new Question("¿Qué es una licencia de software?",
+                new String[]{"Documento que indica el precio del software", "Guía de uso del software", "Contrato entre desarrollador y usuario final especificando derechos y deberes", "Manual técnico del software"},
+                2));
+
+        questions.add(new Question("¿Qué es un programa informático?",
+                new String[]{"Archivo de texto plano", "Conjunto de datos almacenados en un disco duro", "Secuencia de instrucciones y procesos para cumplir un objetivo", "Sistema operativo"},
+                2));
+
+        questions.add(new Question("¿Qué es la arquitectura de Von Neumann?",
+                new String[]{"Arquitectura de CPU basada en una unidad de control y ALU", "Sistema de redes", "Modelo de diseño de software", "Tipo de lenguaje de programación"},
+                0));
+
+        questions.add(new Question("¿Qué es el código fuente?",
+                new String[]{"Código realizado por programadores usando un editor de texto", "Código que se crea tras la compilación", "Código que se obtiene tras enlazar con librerías", "Código ejecutable directamente"},
+                0));
+
+        questions.add(new Question("¿Qué es la compilación?",
+                new String[]{"Proceso de escribir instrucciones en un editor de texto", "Proceso de convertir código fuente a lenguaje máquina", "Proceso de almacenar datos en memoria", "Proceso de ejecutar un programa"},
+                1));
+
+        questions.add(new Question("¿Qué es una máquina virtual de sistema?",
+                new String[]{"Software que permite virtualizar máquinas con distintos sistemas operativos", "Software que se ejecuta como un proceso normal", "Software que traduce bytecode en código binario", "Software que ejecuta programas como si fuese una máquina real"},
+                0));
+
+        questions.add(new Question("¿Qué es una máquina virtual de proceso?",
+                new String[]{"Software que soporta un solo proceso y se ejecuta como un proceso normal", "Software que virtualiza máquinas con distintos sistemas operativos", "Software que traduce código fuente a lenguaje máquina", "Software que ejecuta programas de forma nativa"},
+                0));
+
+        questions.add(new Question("¿Qué es un lenguaje de bajo nivel?",
+                new String[]{"Lenguaje máquina y ensamblador específico para cada procesador", "Lenguaje que utiliza símbolos y reglas complejas", "Lenguaje fácil de aprender y usar", "Lenguaje independiente de la máquina"},
+                0));
+
+        questions.add(new Question("¿Qué es un lenguaje de nivel medio?",
+                new String[]{"Lenguaje que posee características de bajo y alto nivel", "Lenguaje específico para cada procesador", "Lenguaje difícil de aprender", "Lenguaje de propósito general"},
+                0));
+
+        questions.add(new Question("¿Qué es un lenguaje de alto nivel?",
+                new String[]{"Lenguaje fácil de aprender que utiliza nuestro lenguaje natural", "Lenguaje específico para sistemas operativos", "Lenguaje que trabaja directamente con registros de memoria", "Lenguaje complicado de aprender"},
+                0));
+
+        questions.add(new Question("¿Qué es un lenguaje compilado?",
+                new String[]{"Lenguaje que se ejecuta directamente sin traducción", "Lenguaje que necesita ser traducido a lenguaje máquina por un compilador", "Lenguaje específico para sistemas operativos", "Lenguaje que usa máquinas virtuales"},
+                1));
+
+        questions.add(new Question("¿Qué es un lenguaje interpretado?",
+                new String[]{"Lenguaje que se traduce al lenguaje máquina durante su ejecución", "Lenguaje que se compila antes de ejecutarse", "Lenguaje que se ejecuta directamente sin traducción", "Lenguaje específico para sistemas operativos"},
+                0));
+
+        questions.add(new Question("¿Qué es un lenguaje imperativo?",
+                new String[]{"Lenguaje basado en el concepto de función", "Lenguaje basado en el razonamiento lógico", "Lenguaje que establece cómo debe manipularse la información digital", "Lenguaje que utiliza diagramas de flujo"},
+                2));
+
+        questions.add(new Question("¿Qué es un lenguaje funcional?",
+                new String[]{"Lenguaje basado en el concepto de función y sin operación de asignación", "Lenguaje que establece cómo debe manipularse la información digital", "Lenguaje que utiliza objetos y métodos", "Lenguaje específico para sistemas operativos"},
+                0));
+
+        questions.add(new Question("¿Qué es un lenguaje lógico?",
+                new String[]{"Lenguaje que utiliza diagramas de flujo", "Lenguaje basado en el razonamiento deductivo o inductivo", "Lenguaje basado en el concepto de función", "Lenguaje que usa módulos"},
+                1));
+
+        questions.add(new Question("¿Qué es un lenguaje estructurado?",
+                new String[]{"Lenguaje basado en el razonamiento deductivo o inductivo", "Lenguaje basado en el concepto de función", "Lenguaje que establece cómo debe manipularse la información digital", "Lenguaje que utiliza construcciones lógicas como secuencial, condicional y repetitiva"},
+                3));
+
+        questions.add(new Question("¿Qué es un lenguaje orientado a objetos?",
+                new String[]{"Lenguaje basado en el razonamiento deductivo o inductivo", "Lenguaje basado en el concepto de función", "Lenguaje que utiliza construcciones lógicas como secuencial, condicional y repetitiva", "Lenguaje definido por un conjunto de objetos con atributos y métodos"},
+                3));
+
+        questions.add(new Question("¿Qué es un diagrama de flujo?",
+                new String[]{"Tabla que representa condiciones y acciones", "Texto descriptivo que representa un algoritmo", "Herramienta gráfica que representa procesos mediante cajas y flechas", "Diagrama que muestra la estructura de un sistema"},
+                2));
+
+        questions.add(new Question("¿Qué es un pseudocódigo?",
+                new String[]{"Diagrama que representa procesos mediante cajas y flechas", "Tabla que representa condiciones y acciones", "Diagrama que muestra la estructura de un sistema", "Texto descriptivo que mezcla lenguaje natural y sintaxis de programación"},
+                3));
+
+        questions.add(new Question("¿Qué es el modelo en cascada?",
+                new String[]{"Modelo de desarrollo de software con análisis de riesgos", "Modelo de desarrollo de software con etapas secuenciales", "Modelo de desarrollo de software basado en prototipos", "Modelo de desarrollo de software iterativo"},
+                1));
+
+        questions.add(new Question("¿Qué es el modelo iterativo incremental?",
+                new String[]{"Modelo de desarrollo de software con etapas secuenciales", "Modelo de desarrollo de software en espiral", "Modelo de desarrollo que entrega el software en partes utilizables llamadas incrementos", "Modelo de desarrollo de software con análisis de riesgos"},
+                2));
+
+        questions.add(new Question("¿Qué es el modelo en espiral?",
+                new String[]{"Modelo de desarrollo que combina el modelo en cascada con iteraciones de prototipos", "Modelo de desarrollo de software con etapas secuenciales", "Modelo de desarrollo de software basado en incrementos", "Modelo de desarrollo de software iterativo"},
+                0));
+
+        questions.add(new Question("¿Qué es el modelo en V?",
+                new String[]{"Modelo de desarrollo de software con etapas secuenciales", "Modelo de desarrollo de software con análisis de riesgos", "Modelo de desarrollo que representa la secuencia de pasos en una V", "Modelo de desarrollo de software basado en incrementos"},
+                2));
+
+        questions.add(new Question("¿Qué es el análisis en el desarrollo de software?",
+                new String[]{"Proceso de escribir instrucciones en un editor de texto", "Proceso de convertir código fuente a lenguaje máquina", "Especificación de características operativas y requisitos del software", "Proceso de ejecutar un programa"},
+                2));
+
+        questions.add(new Question("¿Qué es el diseño estructurado?",
+                new String[]{"Diseño que utiliza objetos y métodos", "Diseño basado en el razonamiento deductivo o inductivo", "Diseño que utiliza pseudocódigo", "Diseño basado en el flujo de datos a través del sistema"},
+                3));
+
+        questions.add(new Question("¿Qué es el diseño orientado a objetos?",
+                new String[]{"Diseño que define un conjunto de clases para afinar detalles del sistema", "Diseño basado en el flujo de datos a través del sistema", "Diseño que utiliza pseudocódigo", "Diseño basado en el razonamiento deductivo o inductivo"},
+                0));
+
+        questions.add(new Question("¿Qué es la codificación en el desarrollo de software?",
+                new String[]{"Proceso de escribir documentación", "Proceso de ejecutar pruebas de software", "Proceso de analizar requisitos", "Proceso de transformar diseño en lenguaje de programación"},
+                3));
+
+        questions.add(new Question("¿Qué es la verificación en pruebas de software?",
+                new String[]{"Proceso de encontrar errores en la especificación", "Proceso de escribir casos de prueba", "Proceso de comprobar que el software cumple con los requisitos", "Proceso de ejecutar el software"},
+                2));
+
+        questions.add(new Question("¿Qué es la validación en pruebas de software?",
+                new String[]{"Proceso de comprobar que el software cumple con los requisitos", "Proceso de escribir casos de prueba", "Proceso de encontrar situaciones donde el software no cumple especificaciones", "Proceso de ejecutar el software"},
+                2));
+
+        questions.add(new Question("¿Qué es una prueba de caja blanca?",
+                new String[]{"Prueba que valida la estructura interna del sistema", "Prueba que valida los requisitos funcionales", "Prueba que se realiza sin observar el funcionamiento interno", "Prueba que valida la interfaz de usuario"},
+                0));
+
+        questions.add(new Question("¿Qué es una prueba de caja negra?",
+                new String[]{"Prueba que valida la estructura interna del sistema", "Prueba que se realiza observando el funcionamiento interno", "Prueba que valida los requisitos funcionales sin observar el funcionamiento interno", "Prueba que valida la interfaz de usuario"},
+                2));
+
+        questions.add(new Question("¿Qué es la documentación del proceso?",
+                new String[]{"Documento que describe el producto desarrollado", "Registro del proceso de desarrollo y mantenimiento del software", "Manual de usuario del software", "Guía de instalación del software"},
+                1));
+
+        questions.add(new Question("¿Qué es la documentación del producto?",
+                new String[]{"Registro del proceso de desarrollo y mantenimiento del software", "Manual de usuario del software", "Documento que describe el producto desarrollado e incluye su uso y administración", "Guía de instalación del software"},
+                2));
+
+        questions.add(new Question("¿Qué es un compilador?",
+                new String[]{"Programa que traduce código fuente a lenguaje máquina", "Programa que ejecuta código fuente directamente", "Programa que traduce código fuente a bytecode", "Programa que traduce código binario a lenguaje de alto nivel"},
+                0));
+
+        questions.add(new Question("¿Qué es un sistema operativo?",
+                new String[]{"Conjunto de programas que gestionan los recursos de un sistema informático", "Programa que traduce código fuente a lenguaje máquina", "Programa que ejecuta código fuente directamente", "Programa que traduce código binario a lenguaje de alto nivel"},
+                0));
+
+        questions.add(new Question("¿Qué es una base de datos relacional?",
+                new String[]{"Conjunto de datos organizados en tablas relacionadas", "Conjunto de datos organizados en una estructura jerárquica", "Conjunto de datos organizados en una estructura de red", "Conjunto de datos organizados en una estructura de árbol"},
+                0));
+
+        questions.add(new Question("¿Qué es SQL?",
+                new String[]{"Lenguaje de consulta estructurado para gestionar bases de datos relacionales", "Lenguaje de programación para desarrollar aplicaciones web", "Lenguaje de programación para desarrollar aplicaciones de escritorio", "Lenguaje de programación para desarrollar aplicaciones móviles"},
+                0));
+
+        questions.add(new Question("¿Qué es un índice en una base de datos?",
+                new String[]{"Estructura que mejora la velocidad de acceso a los datos", "Estructura que organiza los datos en tablas", "Estructura que define las relaciones entre las tablas", "Estructura que define las restricciones de los datos"},
+                0));
+
+        questions.add(new Question("¿Qué es una clave primaria?",
+                new String[]{"Campo o combinación de campos que identifica de manera única un registro", "Campo que permite valores nulos", "Campo que define las relaciones entre las tablas", "Campo que almacena valores duplicados"},
+                0));
+
+        questions.add(new Question("¿Qué es una clave foránea?",
+                new String[]{"Campo que almacena valores duplicados", "Campo que permite valores nulos", "Campo o combinación de campos que identifica de manera única un registro", "Campo que define las relaciones entre las tablas"},
+                3));
+
+        questions.add(new Question("¿Qué es una transacción en una base de datos?",
+                new String[]{"Conjunto de operaciones que se ejecutan como una unidad", "Operación que permite la lectura de los datos", "Operación que permite la escritura de los datos", "Operación que permite la modificación de los datos"},
+                0));
+
+        questions.add(new Question("¿Qué es ACID en el contexto de bases de datos?",
+                new String[]{"Propiedades que garantizan la fiabilidad de las transacciones", "Propiedades que definen la estructura de los datos", "Propiedades que definen las restricciones de los datos", "Propiedades que definen las relaciones entre las tablas"},
+                0));
+
+        questions.add(new Question("¿Qué es una vista en una base de datos?",
+                new String[]{"Consulta almacenada que se puede reutilizar", "Estructura que organiza los datos en tablas", "Estructura que define las relaciones entre las tablas", "Estructura que define las restricciones de los datos"},
+                0));
+
+        questions.add(new Question("¿Qué es un procedimiento almacenado?",
+                new String[]{"Conjunto de sentencias SQL que se almacenan y ejecutan en el servidor", "Operación que permite la lectura de los datos", "Operación que permite la escritura de los datos", "Operación que permite la modificación de los datos"},
+                0));
+
+        questions.add(new Question("¿Qué es un trigger en una base de datos?",
+                new String[]{"Procedimiento que se ejecuta automáticamente en respuesta a ciertos eventos", "Operación que permite la lectura de los datos", "Operación que permite la escritura de los datos", "Operación que permite la modificación de los datos"},
+                0));
+
+        questions.add(new Question("¿Qué es una función en una base de datos?",
+                new String[]{"Rutina que devuelve un valor y se puede utilizar en una consulta", "Operación que permite la lectura de los datos", "Operación que permite la escritura de los datos", "Operación que permite la modificación de los datos"},
+                0));
+
+        questions.add(new Question("¿Qué es un cursor en una base de datos?",
+                new String[]{"Estructura que permite recorrer los resultados de una consulta", "Estructura que organiza los datos en tablas", "Estructura que define las relaciones entre las tablas", "Estructura que define las restricciones de los datos"},
+                0));
         questions.add(new Question("¿Cuál es la principal función de un entorno de desarrollo integrado (IDE)?",
                 new String[]{"Ejecutar el código fuente directamente", "Facilitar la programación con herramientas integradas", "Controlar la versión del hardware", "Proteger el código contra virus"},
                 1));
@@ -1701,6 +2379,7 @@ public class QuestionLoader {
         questions.add(new Question("¿Cuál de las siguientes opciones NO es un componente típico de un IDE?",
                 new String[]{"Editor de texto", "Depurador", "Sistema operativo", "Compilador"},
                 2));
+
         questions.add(new Question("¿Qué herramienta en un IDE se encarga de traducir el código fuente a lenguaje máquina?",
                 new String[]{"Editor de texto", "Depurador", "Constructor de interfaz gráfica", "Compilador"},
                 3));
